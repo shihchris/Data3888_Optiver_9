@@ -1,8 +1,9 @@
 model,p,q,dist,train_file,test_file,metric,value,runtime_secs
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,R2,-1.8767949068029517,1.189685583114624
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MSE,3.9542450208951127e-07,1.189685583114624
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,RMSE,0.0006288278795421775,1.189685583114624
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MedAE,0.00040789521457876965,1.189685583114624
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MAPE,97.70896191619543,1.189685583114624
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,sMAPE,191.1555300059088,1.189685583114624
-GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,QLIKE,64.71935399372249,1.189685583114624
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,R2,-1.8767949068029517,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MSE,3.9542450208951127e-07,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,RMSE,0.0006288278795421775,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MAE,0.0005079103495574758,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MedAE,0.00040789521457876965,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,MAPE,97.70896191619543,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,sMAPE,191.1555300059088,0.8134379386901855
+GARCH,2,1,skewt,train_sampled_final.csv,test_sampled_final.csv,QLIKE,64.71935399372249,0.8134379386901855

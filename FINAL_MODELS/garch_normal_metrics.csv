@@ -1,0 +1,8 @@
+model,p,q,dist,train_file,test_file,metric,value,runtime_secs
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,R2,-1.8767949068029517,1.1401607990264893
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,MSE,3.9542450208951127e-07,1.1401607990264893
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,RMSE,0.0006288278795421775,1.1401607990264893
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,MedAE,0.00040789521457876965,1.1401607990264893
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,MAPE,97.70896191619543,1.1401607990264893
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,sMAPE,191.1555300059088,1.1401607990264893
+GARCH,2,1,normal,train_sampled_final.csv,test_sampled_final.csv,QLIKE,64.71935399372249,1.1401607990264893

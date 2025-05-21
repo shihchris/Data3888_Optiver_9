@@ -405,6 +405,9 @@ for name, path in metrics_files.items():
                 if dfm[col].astype(str).str.contains('AR-EWMA').any():
                     dfm = dfm[dfm[col] == 'AR-EWMA']
                     break
+        if name == "XGBoost Model":
+            if 'model' in dfm.columns:
+                dfm = dfm[dfm['model'] == 'XGB']
         dfm["model"] = name
         if 'stock_id' in dfm.columns and 'stock' not in dfm.columns:
             dfm['stock'] = dfm['stock_id']
